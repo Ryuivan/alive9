@@ -7,34 +7,41 @@ const gallery = [
     id: 1,
     url: "https://cdn.discordapp.com/attachments/1138154440512241845/1138154911096385576/PLENO_1_FINAL-2.jpg",
     alt: "Photo Rapat Pleno 1",
-    title: "Pleno 1",
+    title: "PLENO 1",
     date: "27 JULI 2023",
   },
   {
     id: 2,
     url: "https://cdn.discordapp.com/attachments/1138154440512241845/1138154911096385576/PLENO_1_FINAL-2.jpg",
     alt: "Photo Rapat Pleno 1",
-    title: "Pleno 1",
+    title: "PLENO 1",
     date: "27 JULI 2023",
   },
   {
     id: 3,
     url: "https://cdn.discordapp.com/attachments/1138154440512241845/1138154911096385576/PLENO_1_FINAL-2.jpg",
     alt: "Photo Rapat Pleno 1",
-    title: "Pleno 1",
+    title: "PLENO 1",
+    date: "27 JULI 2023",
+  },
+  {
+    id: 4,
+    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1138154911096385576/PLENO_1_FINAL-2.jpg",
+    alt: "Photo Rapat Pleno 1",
+    title: "PLENO 1",
     date: "27 JULI 2023",
   },
 ];
 
-const Card = () => {
+const Gallery = () => {
   return (
-    <section className="gallery-card-section">
+    <section className="gallery-card-section" id="gallery">
       <div className="gallery-card-title">
         <h1>Gallery</h1>
       </div>
       <div className="gallery-card-container">
         {gallery.map((card) => (
-          <Link to={`${card.title}`} style={{ textDecoration: "none" }}>
+          <Link to={`gallery/${card.title}`} style={{ textDecoration: "none" }}>
             <div className="gallery-card-gallery" key={card.id}>
               <div className="gallery-card-gallery-image">
                 <img src={card.url} alt={card.alt} />
@@ -52,4 +59,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Gallery;

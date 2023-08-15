@@ -1,0 +1,72 @@
+.about-home {
+  width: 100vw;
+  height: 550px;
+  background-color: transparent;
+}
+
+.green-bg {
+  margin: 20px 0;
+  background-image: url("https://cdn.discordapp.com/attachments/1139426470901600336/1140934172395962408/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  color: white;
+}
+
+.about-text-container {
+  max-width: 600px;
+}
+
+.about-text-container h3 {
+  margin: 40px 0 30px 0;
+}
+
+.about-text-container h3 span {
+  font-weight: 700;
+  background-color: #e08e2a;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+.about-text-container h6 {
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.mascot-btn {
+  font-family: "Montserrat", sans-serif;
+  width: 300px;
+  padding: 10px 0;
+  background-color: #d84536;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .green-bg {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .green-bg {
+    height: 450px;
+  }
+
+  .about-text-container h6 {
+    font-size: 14px;
+  }
+
+  .mascot-btn {
+    height: 40px !important;
+  }
+}

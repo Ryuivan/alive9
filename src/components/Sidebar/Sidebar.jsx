@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Link as LinkB } from "react-scroll";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
@@ -56,7 +57,11 @@ export default function Sidebar() {
           </Link>
         </div>
       </div>
-      <nav className={sidebar ? "nav-menu active sticky-top" : "nav-menu sticky-top"}>
+      <nav
+        className={
+          sidebar ? "nav-menu active sticky-top" : "nav-menu sticky-top"
+        }
+      >
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle d-flex justify-content-end align-items-center">
             <Link
@@ -66,15 +71,20 @@ export default function Sidebar() {
               <AiIcons.AiOutlineClose />
             </Link>
           </li>
-          {SidebarData.map((item, i) => {
-            return (
-              <li key={i} className={item.cName}>
+          {SidebarData.map((item, i) => (
+            <li key={i} className={item.cName}>
+              {item.title === "GALLERY" || item.title === "CONTACT" ? (
+                <LinkB to={item.path} smooth={true}
+                duration={0}>
+                  <span>{item.title}</span>
+                </LinkB>
+              ) : (
                 <Link to={item.path}>
                   <span>{item.title}</span>
                 </Link>
-              </li>
-            );
-          })}
+              )}
+            </li>
+          ))}
         </ul>
       </nav>
     </>

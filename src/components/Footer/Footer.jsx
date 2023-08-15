@@ -41,9 +41,9 @@ export default function Footer() {
             </span>
             <hr />
             <div className="contact-footer">
-              <div>Contact Us</div>
+              <div id="contact">Contact Us</div>
               <div className="instagram">
-                <a href="https://www.instagram.com/alivemedic.umn/"><FaInstagram /> @alivemedic.umn</a>
+                <a href="https://www.instagram.com/alivemedic.umn/"><FaInstagram /> alivemedic.umn</a>
               </div>
             </div>
           </div>

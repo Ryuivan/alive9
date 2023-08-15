@@ -21,12 +21,12 @@ export const SidebarData = [
   },
   {
     title: "GALLERY",
-    path: "/gallery",
+    path: "gallery",
     cName: "nav-text",
   },
   {
     title: "CONTACT",
-    path: "/contact",
+    path: "contact",
     cName: "nav-text",
   },
 ];

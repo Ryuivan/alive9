@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-  margin: 0px;
-}
-
+/* General Styles */
 hr {
   width: 100%;
 }
@@ -11,14 +8,15 @@ hr {
 footer span,
 footer div {
   font-family: 'Montserrat', sans-serif;
-} 
+}
 
+/* Footer Styles */
 .wave-mobile-footer {
   display: block;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   width: 100vw;
 }
 
@@ -39,7 +37,7 @@ footer div {
 }
 
 .absolute-footer {
-  margin: 0px;
+  margin: 0;
   position: absolute;
 }
 
@@ -66,7 +64,6 @@ footer div {
 .star-mobile2-footer {
   top: 40%;
   left: -30%;
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
@@ -78,7 +75,6 @@ footer div {
   align-items: center;
   color: white;
   background: linear-gradient(to bottom, #1f311d 1%, #314e2f 10%);
-  font-family: 'Montserrat', sans-serif;
   max-width: 100vw;
   overflow-x: hidden;
   min-height: 100vh;
@@ -94,15 +90,14 @@ footer div {
   font-size: 28px;
   justify-content: center;
   gap: 1rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .bg-footer .wave-footer {
   min-height: 10vh;
   width: auto;
-  bottom: 0px;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
 }
 
 .bg-footer .flex-footer {
@@ -137,7 +132,7 @@ footer div {
 
 .instagram a {
   text-decoration: none;
-  color: white;  
+  color: white;
 }
 
 .instagram a:hover {
@@ -182,6 +177,7 @@ footer div {
     font-size: 1.5rem;
   }
 }
+
 @media only screen and (min-width: 1300px) {
   .bg-footer {
     min-height: fit-content;

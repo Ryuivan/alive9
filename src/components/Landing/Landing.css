@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  margin-top: 3rem;
+  overflow-x: hidden;
 }
 
 .alive-title-img {
@@ -330,17 +330,16 @@
   .star-left,
   .star-right {
     position: absolute;
-    width: 130px;
-
+    width: 150px;
   }
 
   .star-left {
-    left: 0;
+    left: -15px;
     top: 50%;
   }
 
   .star-right {
-    right: 0;
+    right: -15px;
     top: 50%;
   }
 
@@ -353,6 +352,16 @@
 @media (max-width: 575px) {
   #landing-bg {
     margin-top: 0;
+  }
+
+  .star-left {
+    left: 0;
+    top: 50%;
+  }
+
+  .star-right {
+    right: 0;
+    top: 50%;
   }
 }
 

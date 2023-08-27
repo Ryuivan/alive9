@@ -138,6 +138,8 @@ footer div {
   font-family: "Montserrat", sans-serif;
   position: relative;
   z-index: 99;
+  justify-content: center;
+  margin-top: 20px;
   transition: 0.3s ease;
 }
 
@@ -172,6 +174,10 @@ footer div {
     top: -10%;
     left: 53%;
   }
+  
+  .instagram {
+    justify-content: center;
+  }
 
   .sponsor-section {
     text-align: center;
@@ -191,6 +197,11 @@ footer div {
   .contact-footer {
     text-align: center;
     font-size: 25px;
+  }
+
+  .instagram {
+    justify-content: start;
+    margin: 0;
   }
 
   .bg-footer .wave-footer {

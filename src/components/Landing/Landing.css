@@ -150,6 +150,12 @@
   color: white;
 }
 
+@media (max-width: 1600px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1145371555497529415/landing_1600x3325.png");
+  }
+}
+
 @media (max-width: 1440px) {
   #landing-bg {
     background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144599205323735121/landing_1440x3845.png");

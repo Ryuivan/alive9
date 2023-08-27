@@ -39,6 +39,7 @@ const Gallery = () => {
       <div className="gallery-card-title">
         <h1>Gallery</h1>
       </div>
+      <div className="gallery-width">
       <div className="gallery-card-container">
         {gallery.map((card) => (
           <Link
@@ -55,7 +56,7 @@ const Gallery = () => {
             </div>
           </Link>
         ))}
-      </div>
+      </div></div>
       <div className="gallery-wave">
         <div className="wave1"></div>
       </div>

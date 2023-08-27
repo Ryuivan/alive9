@@ -15,6 +15,7 @@
   position: relative;
   color: white;
   z-index: 1;
+  opacity: 90%;
 }
 
 .about-text-container {
@@ -63,10 +64,15 @@
   background-color: #CE6C51;
   border: none;
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.9);
   border-radius: 50px;
   margin-bottom: 30px;
+  transition: 0.3s ease;
+}
+
+.mascot-btn:hover {
+  background-color: #E08E2A;
 }
 
 @media (max-width: 1100px) {

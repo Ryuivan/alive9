@@ -20,7 +20,7 @@ export default function News() {
               back regularly for all the exciting news and behind-the-scenes
               insights. Don't miss a thing!
               <img
-                src="https://cdn.discordapp.com/attachments/1139426470901600336/1140274227136700466/bungaNews.webp"
+                src="https://cdn.discordapp.com/attachments/1139426470901600336/1145373587671367800/image.png"
                 alt="news-star"
                 className="news-star"
               />

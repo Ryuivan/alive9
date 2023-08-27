@@ -32,7 +32,7 @@ export default function App() {
                 <span>NOW!</span>
               </div>
             </span>
-            <hr />
+            <div className="footer-line"></div>
             <div className="contact-footer">
               <div>Contact Us</div>
                 <a href="https://www.instagram.com/alivemedic.umn/" target="_blank" className="instagram"><FaInstagram /> alivemedic.umn</a>

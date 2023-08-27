@@ -2,7 +2,7 @@ import "./FlowRangkaian.css";
 
 export default function FlowRangkaian() {
   return (
-    <div className="background-footer">
+    <div className="background-flow">
       <div className="noisy">
         <div className="TopSection">
           <div className="JudulRangkaian">

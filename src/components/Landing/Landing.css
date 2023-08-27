@@ -1,6 +1,7 @@
 #landing-bg {
   height: 100%;
   width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1145330927405387796/landing_1920x3325.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -20,7 +21,7 @@
   width: 80%;
   height: 85%;
   border-radius: 50px;
-  background-image: url("https://cdn.discordapp.com/attachments/1135924428300099595/1136864966796914698/image.png");
+  background-image: url("https://cdn.discordapp.com/attachments/1135924428300099595/1142417280156831854/image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@
 }
 
 .countdown-title {
-  color: #eb5b3b;
+  color: #78382D;
   margin: 0;
   font-size: 32px;
   font-weight: 700;
@@ -39,7 +40,7 @@
 .timer-number-3,
 .timer-number-4 {
   font-weight: 700;
-  color: #fff;
+  color: #F9ECDD;
   font-family: "Lemon/Milk", sans-serif;
   margin: 0 20px 0 0;
 }
@@ -51,7 +52,7 @@
 }
 
 .timer-info {
-  color: #eb5b3b;
+  color: #F9ECDD;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
@@ -68,7 +69,7 @@
   font-size: 72px;
   font-family: "Lemon/Milk", sans-serif;
   margin: 0;
-  color: #eb5b3b;
+  color: #CE6C51;
 }
 
 .timer-info-1 {
@@ -137,7 +138,7 @@
   border-radius: 50px;
   height: 60px;
   border: none;
-  background-color: #D6022B;
+  background-color: #CE6C51;
   color: white;
   font-size: 48px;
   padding: 50px;
@@ -145,8 +146,20 @@
 }
 
 .register-btn:hover {
-  background-color: #91142d;
+  background-color: #a73617;
   color: white;
+}
+
+@media (max-width: 1440px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144599205323735121/landing_1440x3845.png");
+  }
+}
+
+@media (max-width: 1024px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144607665088114738/landing_1024x3738.png");
+  }
 }
 
 @media (max-width: 1400px) {
@@ -184,7 +197,11 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1201px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144620406876143696/landing_1200x3798.png");
+  } 
+
   .countdown-title {
     font-size: 20px;
   }
@@ -219,7 +236,10 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144632211174342766/landing_991x4673.png");
+  }
 
   .timer-container {
     width: 450px;
@@ -349,9 +369,10 @@
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 577px) {
   #landing-bg {
     margin-top: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144638777348870305/landing_576x4715.png");
   }
 
   .star-left {

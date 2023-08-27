@@ -7,7 +7,7 @@ export default function News() {
       <Row className="news-container m-0 gx-5">
         <Col lg={6} className="d-flex align-items-center">
           <img
-            src="https://cdn.discordapp.com/attachments/1139426470901600336/1140259968839323869/logoNews.webp"
+            src="https://cdn.discordapp.com/attachments/1139426470901600336/1142428638571151360/image.png"
             alt="news-logo"
             className="news-logo"
           />

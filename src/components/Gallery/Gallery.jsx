@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./Gallery.css";
 import { Link } from "react-router-dom";
 
 const gallery = [
@@ -41,8 +41,12 @@ const Gallery = () => {
       </div>
       <div className="gallery-card-container">
         {gallery.map((card) => (
-          <Link to={`gallery/${card.title}`} style={{ textDecoration: "none" }}>
-            <div className="gallery-card-gallery" key={card.id}>
+          <Link
+            to={`gallery/${card.title}`}
+            style={{ textDecoration: "none" }}
+            key={card.id}
+          >
+            <div className="gallery-card-gallery">
               <div className="gallery-card-gallery-image">
                 <img src={card.url} alt={card.alt} />
               </div>

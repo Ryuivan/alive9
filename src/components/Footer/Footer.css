@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* General Styles */
 hr {
@@ -7,7 +7,7 @@ hr {
 
 footer span,
 footer div {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Footer Styles */
@@ -56,15 +56,9 @@ footer div {
   display: block;
 }
 
-.star-mobile1-footer {
-  top: 20%;
-  right: -40%;
-}
-
 .star-mobile2-footer {
-  top: 40%;
-  left: -30%;
-  transform: scaleX(-1);
+  top: -20%;
+  left: 50%;
 }
 
 .bg-footer {
@@ -74,12 +68,13 @@ footer div {
   justify-content: center;
   align-items: center;
   color: white;
-  background: linear-gradient(to bottom, #1f311d 1%, #314e2f 10%);
+  background: #2a2f22;
+  box-shadow: inset 0px 40px 54px rgba(0, 0, 0, 0.4);
   max-width: 100vw;
   overflow-x: hidden;
   min-height: 100vh;
   font-weight: 500;
-  z-index: -2;
+  z-index: 1;
 }
 
 .register-now-footer {
@@ -119,7 +114,7 @@ footer div {
 
 .contact-footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -130,13 +125,17 @@ footer div {
   font-size: 1.5rem;
 }
 
-.instagram a {
+.instagram {
   text-decoration: none;
   color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 99;
+  transition: 0.3s ease;
 }
 
-.instagram a:hover {
-  color: #ff5a5f;
+.instagram:hover {
+  color: #ee7b13;
   cursor: pointer;
 }
 
@@ -144,10 +143,12 @@ footer div {
   .registerNow {
     font-size: 60px;
   }
+
   .contact-footer {
     text-align: center;
     font-size: 23px;
   }
+
   .star-footer {
     width: 80%;
     top: -5rem;
@@ -159,17 +160,12 @@ footer div {
     display: block;
   }
 
-  .star-mobile1-footer {
+  .star-mobile2-footer {
     width: 400px;
-    top: 40%;
-    right: -20%;
+    top: -10%;
+    left: 53%;
   }
 
-  .star-mobile2-footer {
-    width: 300px;
-    top: 65%;
-    left: -15%;
-  }
   .sponsor-section {
     text-align: center;
     width: fit-content;
@@ -184,14 +180,17 @@ footer div {
     flex-direction: row;
     align-items: flex-start;
   }
+
   .contact-footer {
     text-align: center;
     font-size: 25px;
   }
+
   .bg-footer .wave-footer {
     min-height: auto;
     width: 100vw;
   }
+
   .registerNow {
     font-size: 60px;
     z-index: 2;

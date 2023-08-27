@@ -1,6 +1,5 @@
-#about-bg {
-  background-color: #749539;
-  background-image: url("https://cdn.discordapp.com/attachments/1138141319181631518/1138490694537850951/image.png");
+#about-background {
+  background-image: url("https://cdn.discordapp.com/attachments/1138141319181631518/1142801741948129330/image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,7 +29,7 @@
 .about-title-2 h5 {
   font-size: 26px;
   font-weight: 700;
-  color: #e34939;
+  color: #ce6c51;
 }
 
 .about-title-2 {
@@ -38,8 +37,8 @@
 }
 
 .about-desc p {
-  color: #4a160b;
-  font-family: "Montserrat", sans-serif;
+  color: #4A160B;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-align: justify;
   font-size: 16px;

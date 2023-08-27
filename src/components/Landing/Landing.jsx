@@ -55,13 +55,12 @@ export default function Landing() {
   }, []);
 
   return (
-    // <div className="noisy-50 mt-5">
       <Container className="pb-5">
         <Row className="g-sm-5">
           <Col lg={7} className="pt-5 alive-img">
             <div className="alive-title">
               <img
-                src="https://cdn.discordapp.com/attachments/1135924428300099595/1137747319404642304/image.png"
+                src="https://cdn.discordapp.com/attachments/1135924428300099595/1145348622368637089/image.png"
                 alt="alive-title"
                 className="alive-title-img"
               />
@@ -134,6 +133,5 @@ export default function Landing() {
           </Link>
         </div>
       </Container>
-    // </div>
   );
 }

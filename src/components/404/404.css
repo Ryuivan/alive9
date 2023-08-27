@@ -2,7 +2,7 @@
   overflow: hidden !important;
   max-width: 100vw;
   height: 850px;
-  background-image: url("https://cdn.discordapp.com/attachments/1138492028599144569/1138497078289498202/image.png");
+  background-image: url("https://cdn.discordapp.com/attachments/1138492028599144569/1142813851348369428/image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -11,7 +11,7 @@
 .hospital-bg h1 {
   font-size: 250px;
   font-weight: 700;
-  color: #bc244a;
+  color: #CE6C51;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
-  background-color: #3500a1;
+  background-color: #576A4E;
   border-radius: 25px;
   border: none;
   padding: 10px 65px;
@@ -38,7 +38,7 @@
 }
 
 .go-back:hover {
-  background-color: #270075;
+  background-color: #34422d;
 }
 
 @media (max-width: 500px) {

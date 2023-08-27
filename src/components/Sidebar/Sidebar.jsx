@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Link as LinkB } from "react-scroll";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -10,6 +10,7 @@ export default function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
@@ -74,10 +75,15 @@ export default function Sidebar() {
           {SidebarData.map((item, i) => (
             <li key={i} className={item.cName}>
               {item.title === "GALLERY" || item.title === "CONTACT" ? (
-                <LinkB to={item.path} smooth={true}
-                duration={0}>
-                  <span>{item.title}</span>
-                </LinkB>
+                location.pathname === "/" ? (
+                  <LinkB to={item.path} smooth={true} duration={0}>
+                    <span>{item.title}</span>
+                  </LinkB>
+                ) : (
+                  <Link to="/">
+                    <span>{item.title}</span>
+                  </Link>
+                )
               ) : (
                 <Link to={item.path}>
                   <span>{item.title}</span>

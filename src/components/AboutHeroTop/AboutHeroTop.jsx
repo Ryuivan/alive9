@@ -7,7 +7,7 @@ export default function AboutHero() {
       <Row className="gutter">
         <Col xl={6} className="about-alive-container">
           <img
-            src="https://cdn.discordapp.com/attachments/1138141319181631518/1138148426148757605/image.png"
+            src="https://cdn.discordapp.com/attachments/1138141319181631518/1142429823306842132/image.png"
             alt="about-alive-img"
             className="about-alive-top-img"
           />

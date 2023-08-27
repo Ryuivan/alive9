@@ -8,19 +8,3 @@
   box-sizing: border-box;
   font-family: 'Montserrat Subrayada', sans-serif;
 }
-
-img {
-  margin: 0;
-}
-
-.noisy-50 {
-  background-image: url("https://cdn.discordapp.com/attachments/1135924428300099595/1139145874447007825/image.png");
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 576px) {
-  .noisy-50 {
-    margin: 0 !important;;
-  }
-}

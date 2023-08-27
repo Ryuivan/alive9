@@ -1,4 +1,5 @@
 import "./AboutHome.css";
+import { Link } from "react-router-dom";
 
 export default function AboutHome() {
   return (
@@ -16,7 +17,23 @@ export default function AboutHome() {
             diangkat guna meningkatkan pengetahuan publik terhadap betapa
             pentingnya peran nutrisi makanan kepada tubuh.
           </h6>
-          <button className="mascot-btn mx-auto">MEET OUR MASCOT!</button>
+          <div className="about-ornament">
+            <img
+              src="https://cdn.discordapp.com/attachments/1139426470901600336/1142828097071231047/image.png"
+              alt="ornament-left"
+              className="ornament-left"
+            />
+            <img
+              src="https://cdn.discordapp.com/attachments/1139426470901600336/1142828138640973934/image.png"
+              alt="ornament-right"
+              className="ornament-right"
+            />
+          </div>
+          <div>
+            <Link to="/about" className="link-btn">
+              <button className="mascot-btn mx-auto">MEET OUR MASCOT!</button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

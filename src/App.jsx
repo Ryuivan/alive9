@@ -8,7 +8,7 @@ import Flow from "./pages/Flow";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Card from "./pages/Gallery";
-import Pleno1 from "./components/Gallery/Pleno1";
+import Pleno1 from "./components/Gallery/Pleno1Bae";
 
 function App() {
   return (

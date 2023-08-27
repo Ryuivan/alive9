@@ -30,7 +30,7 @@
 }
 
 .navbar {
-  background-color: #77993b;
+  background-color: #77993B;
   height: 100px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -69,17 +69,7 @@
 }
 
 .nav-menu {
-  background: linear-gradient(
-    238.93deg,
-    #9b0109 -23.66%,
-    #fd5a5d 25.45%,
-    #fd5a5d 74.55%,
-    #9b0109 123.66%
-  );
-  background-blend-mode: difference;
-  mix-blend-mode: normal;
-  box-shadow: inset -103px -56px 170px rgba(0, 0, 0, 0.25),
-    inset 99px 50px 88px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(238.93deg, #282337 -23.66%, #756774 25.45%, #756774 74.55%, #282337 123.66%);
   width: 250px;
   height: 100vh;
   display: flex;
@@ -105,7 +95,7 @@
 
 .nav-text a {
   text-decoration: none;
-  color: #f5f5f5 !important;
+  color: #FFF2E3 !important;
   font-size: 18px;
   width: 95%;
   height: 100%;

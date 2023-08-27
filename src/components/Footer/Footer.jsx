@@ -35,7 +35,14 @@ export default function App() {
             <div className="footer-line"></div>
             <div className="contact-footer">
               <div>Contact Us</div>
-                <a href="https://www.instagram.com/alivemedic.umn/" target="_blank" className="instagram"><FaInstagram /> alivemedic.umn</a>
+              <a
+                href="https://www.instagram.com/alivemedic.umn/"
+                target="_blank"
+                className="instagram d-flex align-items-center"
+              >
+                <FaInstagram />
+                &nbsp;alivemedic.umn
+              </a>
             </div>
           </div>
         </div>

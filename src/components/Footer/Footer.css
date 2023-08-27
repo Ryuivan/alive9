@@ -88,7 +88,7 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 28px;
   justify-content: center;
   gap: 1rem;
@@ -122,7 +122,7 @@ footer div {
 .contact-footer {
   text-align: center;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .sponsor-section {

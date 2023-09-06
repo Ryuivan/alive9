@@ -13,7 +13,7 @@ export default function Landing() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("October 31, 2023 00:00:00").getTime();
+    const countdownDate = new Date("November 6, 2023 00:00:00").getTime();
 
     interval.current = setInterval(() => {
       const now = new Date().getTime();

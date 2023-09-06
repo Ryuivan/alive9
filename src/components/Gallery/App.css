@@ -378,6 +378,7 @@
   width: 92%;
   display: flex;
   flex-direction: column;
+  height: 30%;
 }
 
 .gallery-pleno1-container .gallery-pleno1-heading h1 {
